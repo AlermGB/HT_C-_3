@@ -28,7 +28,7 @@ double Bz = Convert.ToInt32(Console.ReadLine());
 
 double distance = Math.Sqrt(squareOfDifference(Bx, Ax)+
                             squareOfDifference(By, Ay)+
-                            squareOfDifference(By, Ay));
+                            squareOfDifference(Bz, Az));
 double roundDistance = Math.Round(distance,2);
 Console.WriteLine($"Расстояние между A и B равно {roundDistance}");
 
